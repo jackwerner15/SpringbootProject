@@ -1,3 +1,3 @@
 # SpringbootProject
 
-Subcriber project using springboot
+Subscriber project using springboot
