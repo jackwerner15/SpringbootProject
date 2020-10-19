@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" lang = "eng">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
             <tr>
                 <td>First Name: </td>
                 <td>
-                    <input type="text" th:field="*(firstName)" />
+                    <input type="text" th:field="*{firstName}" />
                 </td>
             </tr>
             <tr>
