@@ -8,14 +8,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import org.hibernate.annotations.CreationTimeStamp;
+import org.hibernate.annotations.CreationTimestamp;
 import org.springframework.data.annotation.CreatedDate;
-
 
 @Entity
 public class Subscriber {
 
-  //properties
+    // properties
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -23,8 +22,8 @@ public class Subscriber {
     private String lastName;
     private String userName;
 
-    @Column 
-    @CreationTimeStamp
+    @Column
+    @CreationTimestamp
     private Date signedUP;
 
 
